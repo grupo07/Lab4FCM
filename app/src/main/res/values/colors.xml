@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5e35b1</color>
+    <color name="colorPrimaryDark">#b39ddb</color>
+    <color name="colorAccent">#512da8</color>
+    <color name="desconectado">#d11c1c</color>
+    <color name="conectado">#00bcd4</color>
+</resources>

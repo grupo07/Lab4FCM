@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:layout_marginTop="6dp"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="6dp"
+        android:layout_height="60dp">
+
+        <RelativeLayout
+            android:id="@+id/grupos_layout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/grupos_img_grupo_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_group_black_24dp" />
+
+            <TextView
+                android:id="@+id/grupos_txt_grupo_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="12dp"
+                android:layout_toEndOf="@id/grupos_img_grupo_id"
+                android:text="Texto Ejemplo"
+                android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                android:textSize="32sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

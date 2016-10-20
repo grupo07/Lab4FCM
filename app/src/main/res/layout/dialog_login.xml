@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dialog_paddings"
+    android:theme="@android:style/Theme.NoTitleBar"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textAllCaps="true"
+        android:text="@string/login_mensaje_crearCuenta"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/login_btn_crear_cuenta_id"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_crearCuenta"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="#FFFFFF" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="24dp"
+        android:background="#C8C9CB" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="@dimen/margin_dialogtext_bottom"
+        android:text="@string/login_correo" />
+
+
+    <EditText
+        android:id="@+id/login_correo_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_dialogedittext_bottom"
+        android:fontFamily="sans-serif"
+        android:hint="@string/login_correoExample"
+        android:maxLength="45"
+        android:inputType="textEmailAddress"
+        android:lines="1" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_dialogtext_bottom"
+        android:text="@string/login_clave" />
+
+    <EditText
+        android:id="@+id/login_clave_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_dialogedittext_bottom"
+        android:fontFamily="sans-serif"
+        android:hint="@string/login_claveExample"
+        android:maxLength="26"
+        android:inputType="textPassword"
+        android:lines="1" />
+
+    <Button
+        android:id="@+id/login_btn_iniciar_id"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_dialogbutton_bottom"
+        android:text="@string/login_iniciaSesion"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

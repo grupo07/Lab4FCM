@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Lab4FCM</string>
+    <string name="token_google">AIzaSyDimbVNb7cUpxXwT3p6rAezczyqD71EZrY.apps.googleusercontent.com</string>
+    <string name="login_correo">Correo Eletrónico</string>
+    <string name="login_clave">Contraseña</string>
+    <string name="login_correoExample">correo@ejemplodecorreo.com</string>
+    <string name="login_claveExample">*************</string>
+    <string name="login_iniciaSesion">Iniciar Sesión</string>
+    <string name="login_mensaje_crearCuenta">Debes tener una cuenta</string>
+    <string name="login_crearCuenta">Crear una Cuenta</string>
+    <string name="login_snackbar_action">Cerrar</string>
+    <string name="mensaje_success_login">Has iniciado sesión</string>
+    <string name="mensaje_error_campoVacio">Espacios vacios</string>
+    <string name="mensaje_error_camposVacios">Espacios vacios</string>
+    <string name="mensaje_error_formatoInvalido_correo">Correo invalido</string>
+    <string name="mensaje_error_longitudMinima">Contraseña pequeña</string>
+    <string name="mensaje_error_NoCoinciden_contraseña">No es la contraseña</string>
+    <string name="mensaje_error_conexion">No hay Conexión</string>
+    <string name="mensaje_error_contraseñaIncorrecta">Error de contraseña</string>
+    <string name="mensaje_error_usuarioInvalido">Usuario no existe</string>
+    <string name="mensaje_error_usuarioExistente">Usuario existe</string>
+    <string name="login_title_chat">Lab4FCM</string>
+    <string name="crearCuenta_btn_crear">Crear Cuenta</string>
+    <string name="crearCuenta_txt_creacionCuenta">Nuevas cuentas</string>
+    <string name="crearCuenta_txt_nombreUsuario">Nombre</string>
+    <string name="crearCuenta_txt_contraseñaRep">Confirmar Contraseña</string>
+    <string name="toolbar_cerrarSesion_option">Cerrar Sesion</string>
+    <string name="estado_conectado">Conectado</string>
+    <string name="estado_desconectado">Desconectado</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="titulo_fragment_grupos">Grupos</string>
+    <string name="titulo_fragment_usuarios">Usuarios</string>
+    <string name="titulo_dialog_grupo">Grupos</string>
+    <string name="mensajes_dialog_nuevoGrupo">Nuevo grupo</string>
+    <string name="dialog_positiveOption">Agregar</string>
+    <string name="dialog_negativeOption">Cancelar</string>
+    <string name="chat_btn_enviar">Enviar</string>
+    <string name="sesionActiva_titutlo_dialogo">Cerrar Sesión</string>
+    <string name="sesionActiva_mensaje_dialogo">Desea salir?</string>
+    <string name="sesionActiva_positiveOption_dialogo">Si</string>
+    <string name="sesionActiva_negativeOption_dialogo">No</string>
+    <string name="toolbar_subtitle">Menu</string>
+
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "77823326224",
+    "firebase_url": "https://lab4fcm-c728b.firebaseio.com",
+    "project_id": "lab4fcm-c728b",
+    "storage_bucket": "lab4fcm-c728b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77823326224:android:dcf86b060f219da2",
+        "android_client_info": {
+          "package_name": "co.edu.udea.compumovil.gr06.lab4fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77823326224-iq8dn1bp29vs624cc0lubca17d94gk5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2cJDD2JoAHnnjAbUHsDBCDEkOh9pUsh4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

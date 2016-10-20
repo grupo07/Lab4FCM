@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.edu.udea.compumovil.gr07.lab4fcm.UI.Fragments.Grupos">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/grupos_listView_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.FloatingActionButton android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_group_add"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:elevation="6dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/grupos_floatingbtn_addgrupo_id" />
+
+</RelativeLayout>
